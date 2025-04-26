@@ -11,29 +11,11 @@
     <Window.Background>
         <SolidColorBrush>
             <SolidColorBrush.Color>
-                <Color A="128" R="255" G="255" B="255" />
+                <Color A="1" R="255" G="255" B="255" />
             </SolidColorBrush.Color>
         </SolidColorBrush>
     </Window.Background>
     <Canvas x:Name="MainCanvas">
-        <!-- 円 -->
-        <Ellipse x:Name="Circle"
-                 Stroke="Black" 
-                 StrokeThickness="2" 
-                 Width="360" 
-                 Height="360" 
-                 Canvas.Left="20" 
-                 Canvas.Top="20" />
-        <!-- 三角形 -->
-        <Polygon x:Name="Triangle"
-                 Fill="Green" 
-                 Points="0,0 20,0 10,20"
-                 RenderTransformOrigin="0.5,1">
-            <Polygon.RenderTransform>
-                <TransformGroup>
-                    <RotateTransform x:Name="TriangleRotate" />
-                </TransformGroup>
-            </Polygon.RenderTransform>
-        </Polygon>
+        
     </Canvas>
 </Window>
